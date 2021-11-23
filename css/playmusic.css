@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f7f7;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav__pause a {
+    color: white;
+}
+.left, .right {
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__img {
+    background-image: url("https://img.discogs.com/dfNSJKhOcrrCgL34SXQzBtyFZfY=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-11276711-1605969705-3107.jpeg.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    box-shadow : 0px 0px 13px 0px ;
+}
+.main__title {
+    margin-top: 15px;
+}
+.main__title h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.main__title p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.3);
+}
+.heart p {
+    margin-left: 10px;
+}
+.click {
+    margin-top: 20px;
+    display: flex;
+}
+.shuffle {
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+}
+.heart {
+    width: 120px;
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.footer {
+    margin-top: 35px;
+}
+.footer__music {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.music__img-one{
+    background-image: url("https://img.discogs.com/dfNSJKhOcrrCgL34SXQzBtyFZfY=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-11276711-1605969705-3107.jpeg.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+}
+.music__img-two{
+    background-image: url("http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/955/260/81955260_1616133662756_1_600x600.JPG");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 55px;
+    height: 55px;
+}
+.music__img-three {
+    background-image: url("https://cdn.shopify.com/s/files/1/0052/7450/1190/products/image_b8faa335-85b6-4c2f-99fd-c8c8a380f976_1024x1024.jpg?v=1623158840");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 55px;
+    height: 55px;
+}
+.music__img-four {
+    background-image: url("https://bimage.interpark.com/goods_image/7/5/6/8/353697568g.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 55px;
+    height: 55px;
+}
+.music__img-five {
+    background-image: url("https://townsquare.media/site/366/files/2021/08/attachment-Maneskin-Iggy-Pop-I-Wanna-Be-Your-Slave.jpg?w=720&q=75");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 55px;
+    height: 55px;
+}
+.footer__music h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer__music p {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+}
+.music__title {
+    margin-right: 220px;
+}
+.music__title-one, .music__title-two,
+.music__title-three{
+    margin-right: 190px;
+}
+.music__title-four {
+    margin-right: 90px;
+}
+.icons {
+    margin-right: 40px;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.music__sing {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 30px;
+    color: white;
+    width: 440px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.font__one {
+    color: #666666;
+    font-size: 13px;
+}
+.font__two {
+    font-size: 20px;
+    line-height: 25px;
+}
+.nav__pause {
+    margin-right: 10px;
+    font-size: 25px;
+}
+.fa-step-backward {
+    margin-right: 20px;
+    font-size: 20px;
+}
+.fa-step-forward {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+}
+.right__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right__img {
+    margin-top: 40px;
+    width: 250px;
+    height: 250px;
+    background-image: url("https://img.discogs.com/dfNSJKhOcrrCgL34SXQzBtyFZfY=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-11276711-1605969705-3107.jpeg.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow : 0px 8px 30px 0px ;
+}
+.right__song {
+    margin-top: 50px;
+}
+.right__song h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.right__song p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.3);
+}
+.right__footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.time {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: rgba(0, 0, 0, 0.2);
+}
+.playing {
+    margin-left: 30px;
+    width: 430px;
+    height: 10px;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    position: relative;
+}
+.range {
+    background-color: black;
+    border-radius: 20px;
+    width: 250px;
+    height: 10px;
+}
+.cicle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 30px;
+    margin-left: 240px;
+    margin-top: -15px;
+}
+.play__music {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    padding: 30px;
+}
+.icon__cicle {
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.fa-play {
+    margin-left: 5px;
+}
+.fa-random, .fa-sync-alt{
+    opacity: 0.3;
+}
+#no-mobile {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    background-color: purple;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+}
+@media screen and (max-width: 600px){
+    #no-mobile {
+        display: none;
+    }
+}

@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    text-decoration: none;
+  }
+.wrap {
+    width: 100%;
+    height: 100%;
+    border: 5px solid purple;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    width: 100%;
+    height: 200px;
+    border: 2px solid white;
+    font-size: 40px;
+    padding: 0px 30px;
+    position: relative;
+}
+.nav__menubar a {
+    font-size: 25px;
+    color: white;
+}
+.nav__menubar a:hover {
+    color: black;
+}
+.nav__cart a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.nav__cart a:hover {
+    color: black;
+}
+.searching {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+    margin: -30px 50px;
+    box-shadow : 0px 5px 15px 0px ;
+    font-size: 20px;
+}
+.movie {
+    margin-top: 40px;
+    padding: 20px 40px;
+}
+.movie h1, .movies h1 {
+    color: purple;
+    font-size: 25px;
+}
+.main__title {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.main__img {
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url("https://t1.daumcdn.net/movie/198e822e9c7919e0a9466b6d41f599d736a64994");
+    background-position: center;
+    background-size: cover;
+}
+.main__title__movie {
+    margin-left: 30px;
+    line-height: 30px;
+}
+.main__title__movie li {
+    font-size: 17px;
+}
+.main__title__movie i {
+    color: purple;
+}
+.category {
+    margin-left: 30px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.category__one {
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category__two {
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.movie__like {
+    display: flex;
+}
+.movie__like__heart button:first-child {
+    width: 30px;
+    height: 30px;
+    background-color: purple;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+}
+.movie__like button {
+    margin-top: 20px;
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+    width: 120px;
+    height: 30px;
+}
+.movies {
+    margin-top: 30px;
+}
+.movies__list {
+    display: flex;
+}
+.movies__img {
+    margin-top: 20px;
+}
+.img__one {
+    background-image: url("http://t1.daumcdn.net/movie/68697a4b31e7461b8ffe3211a9cd12b31564105313046");
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.img__two {
+    background-image: url("https://upload.wikimedia.org/wikipedia/ko/c/ce/%EB%B6%84%EB%85%B8%EC%9D%98_%EC%A7%88%EC%A3%BC_%EB%8D%94_%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%A6%BC.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.img__three{
+    background-image: url("https://ww.namu.la/s/e15d9f4fb10bbfa2f0f05013c016a0691e3859865e069c771956d66632ee7504bc6130bf92d464fc1eb6c82e68ba916deb2172bf92bb4c09ba0fe07d20aa09e2175e119fbc23e759a68dba80d521542c4b0d72944aeafca3205e71b5eb24dd68");
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.img__four {
+    background-image: url("https://file.mk.co.kr/meet/neds/2021/04/image_readtop_2021_370641_16186560884614436.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 15px;
+    overflow: scroll;
+}
+.movies__star:nth-child(2), .movies__star:nth-child(3) {
+    margin-left: 20px;
+}
+.movies__img i {
+    color: purple;
+    font-size: 10px;
+}
+.actor {
+    margin-top: 40px;
+}
+.actor__title {
+    display: flex;
+}
+.actor__img {
+    margin-top: 20px;
+    width: 150px;
+    height: 160px;
+    background-image: url("http://ojsfile.ohmynews.com/STD_IMG_FILE/2015/0424/IE001823183_STD.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.actor__story {
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 20px;
+}
+.font__size {
+    font-size: 18px;
+}
+.introduce {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.3);
+}
+#no-mobile {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    background-color: purple;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+}
+@media screen and (max-width: 600px){
+    #no-mobile {
+        display: none;
+    }
+}
